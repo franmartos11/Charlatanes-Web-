@@ -1,3 +1,4 @@
+import BentoGridCustom from "@/Components/BentoGrids/BentoGridCustom";
 import Faqs from "@/Components/Faqs";
 import Footer from "@/Components/Footer";
 import FormContact from "@/Components/FormContact";
@@ -13,6 +14,7 @@ export default function Home() {
   return (
     <div className="gradient">
       <Header></Header>
+      <BentoGridCustom></BentoGridCustom>
       <Prices></Prices>
       <ShowVideoIphone></ShowVideoIphone>
       <Faqs></Faqs>
