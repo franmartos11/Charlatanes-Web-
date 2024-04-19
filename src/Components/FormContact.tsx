@@ -1,7 +1,7 @@
 export default function (service: { service: string }) {
     return (
-        <section className=" pt-[3rem]">
-            <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+        <section className=" pt-[3rem] pb-[2rem] ">
+            <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md bg-gray-900  rounded-lg ">
                 <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-white">
                     Contactanos
                 </h2>
@@ -65,7 +65,7 @@ export default function (service: { service: string }) {
                     <div className=" text-center ">
                         <button
                             type="submit"
-                            className="py-3 px-9 text-sm font-medium text-center bg-gray-700 text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 "
+                            className="py-3 px-9 text-sm font-medium text-center bg-blue-500 rounded-lg hover:bg-blue-700 text-white bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 "
                         >
                             Enviar Mensaje
                         </button>
